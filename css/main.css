@@ -1,0 +1,68 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.top-buffer { margin-top:20px; }
+.bottom-buffer { margin-bottom:30px; }
+
+.icon-group{
+  display: inline-block;
+  text-align: center;
+}
+
+.wi-2x{font-size: 2em;}
+.wi-3x{font-size: 3em;}
+.wi-4x{font-size: 4em;}
+.wi-5x{font-size: 5em;}
+
+.btn-pink {
+  color: #0F0F0F;
+  background-color: #f62957;
+  border-color: #f62957;
+}
+
+.btn-pink:hover,
+.btn-pink:focus,
+.btn-pink:active,
+.btn-pink.active,
+.open .dropdown-toggle.btn-pink {
+  color: #0F0F0F;
+  background-color: #f62957;
+  border-color: #f62957;
+}
+
+.btn-pink:active,
+.btn-pink.active,
+.open .dropdown-toggle.btn-pink {
+  background-image: none;
+}
+
+.btn-pink.disabled,
+.btn-pink[disabled],
+fieldset[disabled] .btn-pink,
+.btn-pink.disabled:hover,
+.btn-pink[disabled]:hover,
+fieldset[disabled] .btn-pink:hover,
+.btn-pink.disabled:focus,
+.btn-pink[disabled]:focus,
+fieldset[disabled] .btn-pink:focus,
+.btn-pink.disabled:active,
+.btn-pink[disabled]:active,
+fieldset[disabled] .btn-pink:active,
+.btn-pink.disabled.active,
+.btn-pink[disabled].active,
+fieldset[disabled] .btn-pink.active {
+  background-color: #f62957;
+  border-color: #f62957;
+}
+
+.btn-pink .badge {
+  color: #f62957;
+  background-color: #0F0F0F;
+}
